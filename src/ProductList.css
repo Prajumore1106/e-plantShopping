@@ -178,16 +178,15 @@ body {
    justify-content: center;
     /* background-color: yellow; */
 }
-.plant_heading{
+.plant_heading {
     width: 400px;
-    text-align: center;
-    margin: 20px;
+    text-align: center; /* Center align text */
+    margin: 20px auto; /* Center horizontally with auto margins */
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
-
-    
 }
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
